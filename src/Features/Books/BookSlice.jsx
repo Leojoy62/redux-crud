@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import { v4 as uuidv4 } from "uuid";
 const initialBookState = {
   books: [
-    { id: uuidv4(), name: "Bangladesh", author: "Leonard Joy" },
-    { id: uuidv4(), name: "USA", author: "Leo Joy" },
+    { id: uuidv4(), name: "Our Bangladesh", author: "Leonard Joy" },
+    { id: uuidv4(), name: "JavScript", author: "Jason James" },
   ],
 };
 
